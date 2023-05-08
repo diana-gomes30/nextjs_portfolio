@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MouseEvent, useState } from 'react';
+import { useState } from 'react';
 
 const Header = () => {
   const [page, setPage] = useState(0);
@@ -15,24 +15,24 @@ const Header = () => {
           <li
             onClick={() => handleClick(0)}
             className={`${
-              page === 0 ? `text-fuchsia-800 ` : `text-white `
-            } && flex-1 mx-8 cursor-pointer hover:text-fuchsia-800 font-bold`}
+              page === 0 ? `text-fuchsia-700 ` : `text-white `
+            } && flex-1 mx-8 cursor-pointer font-bold hover:text-fuchsia-700 hover:transition-all hover:ease-in delay-100`}
           >
             <Link href="/">HOME</Link>
           </li>
           <li
             onClick={() => handleClick(1)}
             className={`${
-              page === 1 ? `text-fuchsia-800 ` : `text-white `
-            } && flex-1 mx-8 cursor-pointer hover:text-fuchsia-800 font-bold`}
+              page === 1 ? `text-fuchsia-700 ` : `text-white `
+            } && flex-1 mx-8 cursor-pointer font-bold hover:text-fuchsia-700 hover:transition-all hover:ease-in delay-100`}
           >
             <Link href="/about">ABOUT</Link>
           </li>
           <li
             onClick={() => handleClick(2)}
             className={`${
-              page === 2 ? `text-fuchsia-800 ` : `text-white `
-            } && flex-1 mx-8 cursor-pointer hover:text-fuchsia-800 font-bold`}
+              page === 2 ? `text-fuchsia-700 ` : `text-white `
+            } && flex-1 mx-8 cursor-pointer font-bold hover:text-fuchsia-700 hover:transition-all hover:ease-in delay-100`}
           >
             <Link href="/projects">PROJECTS</Link>
           </li>

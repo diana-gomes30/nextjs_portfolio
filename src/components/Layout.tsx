@@ -14,7 +14,7 @@ export default function Layout({ children }: LayoutProps) {
       </div>
       <div className="relative z-10">
         <div className="min-h-screen flex flex-col">
-          <div className="w-screen mx-auto py-4 flex justify-center">
+          <div className="w-screen mx-auto py-6 flex justify-center">
             <Header />
           </div>
           <div className="flex-grow">
@@ -22,7 +22,7 @@ export default function Layout({ children }: LayoutProps) {
               {children}
             </main>
           </div>
-          <div className="w-screen mx-auto py-4 flex justify-center">
+          <div className="w-screen mx-auto py-6 flex justify-center">
             <Footer />
           </div>
         </div>
