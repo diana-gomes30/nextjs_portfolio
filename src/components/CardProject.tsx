@@ -8,13 +8,14 @@ interface CardProjectProps {
 
 export default function CardProject({ project }: CardProjectProps) {
   return (
-    <div className="flex flex-col h-[550px] max-h-[900px] min-h-max bg-white rounded-lg shadow-lg p-4 justify-center items-center">
+    <div className="flex flex-col w-full h-[550px] max-h-[900px] min-h-max text-white rounded-lg shadow-lg p-4 justify-center items-center">
       <div className="relative w-full flex flex-1">
         <Image
           src={project.imagePath}
           alt={project.name}
           fill
-          style={{ objectFit: 'cover' }}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 200vw, 99vw"
+          style={{ objectFit: 'contain' }}
           className="rounded-lg"
         />
       </div>
@@ -30,7 +31,7 @@ export default function CardProject({ project }: CardProjectProps) {
           <h3 className="py-3 font-bold text-center">{project.skills}</h3>
         )}
         <p className="mt-2 text-center">{project.description}</p>
-        <div className="flex flex-col md:flex-row w-full md:w-2/3 lg:w-1/3 my-4 mx-auto content-between justify-between">
+        <div className="flex flex-col md:flex-row w-full content-between justify-between">
           <Link href={project.gitHubLink}>
             <button className="bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-2 my-2 px-4 rounded">
               GitHub Repo

@@ -1,18 +1,51 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { ReactNode } from 'react';
 
 const Header = () => {
-  const [page, setPage] = useState(0);
-
-  const handleClick = (value: number) => {
-    setPage(value);
-  };
-
   return (
     <div className="flex w-full items-center justify-center py-6 px-10">
       <nav>
         <ul className="flex text-base">
-          <li
+          <CustomLink href="/">Home</CustomLink>
+          <CustomLink href="/about">About</CustomLink>
+          <CustomLink href="/projects">Projects</CustomLink>
+        </ul>
+      </nav>
+    </div>
+  );
+};
+
+interface CustomLinkProps {
+  href: string;
+  children: ReactNode;
+}
+
+const CustomLink = ({ href, children }: CustomLinkProps) => {
+  let path;
+  if (typeof window !== 'undefined') {
+    path = window.location.pathname;
+  } else {
+    path = '/';
+  }
+
+  return (
+    <li>
+      <Link
+        href={href}
+        className={`${
+          path === href ? `text-fuchsia-700 ` : `text-white `
+        } && flex-1 mx-6 cursor-pointer font-bold hover:text-fuchsia-700 hover:transition-all hover:ease-in-out delay-100`}
+      >
+        {children}
+      </Link>
+    </li>
+  );
+};
+
+export default Header;
+
+/* 
+<li
             onClick={() => handleClick(0)}
             className={`${
               page === 0 ? `text-fuchsia-700 ` : `text-white `
@@ -36,10 +69,4 @@ const Header = () => {
           >
             <Link href="/projects">PROJECTS</Link>
           </li>
-        </ul>
-      </nav>
-    </div>
-  );
-};
-
-export default Header;
+*/

@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
       <div
         className="h-screen w-screen overflow-x-hidden bg-cover bg-center flex flex-col items-center"
         style={{
-          backgroundImage: 'url("/background1.jpg")',
+          backgroundImage: 'url("/background.jpg")',
           backgroundSize: 'cover',
         }}
       >

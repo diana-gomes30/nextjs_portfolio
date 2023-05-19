@@ -18,15 +18,14 @@ export default function SliderProjects() {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
       effect={'cube'}
       loop={true}
       grabCursor={true}
       cubeEffect={{
-        shadow: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-        slideShadows: true,
+        shadow: false,
+        shadowOffset: 0,
+        shadowScale: 0,
+        slideShadows: false,
       }}
     >
       {data.projects.map((e: Project) => (
