@@ -13,6 +13,7 @@ export default function CardProject({ project }: CardProjectProps) {
         <Image
           src={project.imagePath}
           alt={project.name}
+          placeholder="blur"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 200vw, 99vw"
           className="rounded-lg object-contain"

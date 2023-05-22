@@ -5,12 +5,6 @@ import { Project } from '@/interfaces/data';
 import 'swiper/swiper-bundle.min.css';
 import { Navigation, Pagination, Scrollbar, A11y, EffectCube } from 'swiper';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-
 export default function SliderProjects() {
   return (
     <Swiper

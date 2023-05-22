@@ -1,6 +1,8 @@
+import { StaticImageData } from 'next/image';
+
 export interface Project {
   id: number;
-  imagePath: string;
+  imagePath: StaticImageData;
   name: string;
   skills: string;
   tests?: string;

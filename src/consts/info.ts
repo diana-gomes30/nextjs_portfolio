@@ -1,3 +1,7 @@
+import crytoappNext from '../../public/images/cryptoapp_nextjs.jpg';
+import crytoappReact from '../../public/images/cryptoapp_reactjs.jpg';
+import todolistReact from '../../public/images/todolist_reactjs.jpg';
+
 const data = {
   name: 'Diana Gomes',
   role: 'Software Developer',
@@ -14,7 +18,7 @@ const data = {
   projects: [
     {
       id: 1,
-      imagePath: '/images/cryptoapp_nextjs.jpg',
+      imagePath: crytoappNext,
       name: 'CryptoApp',
       skills: 'Next.js | TypeScript | Tailwind CSS | Storybook',
       tests: 'Cypress | Jest | Testing Library',
@@ -25,7 +29,7 @@ const data = {
     },
     {
       id: 2,
-      imagePath: '/images/cryptoapp_reactjs.jpg',
+      imagePath: crytoappReact,
       name: 'CryptoApp',
       skills: 'React.js | TypeScript | CSS',
       description:
@@ -35,7 +39,7 @@ const data = {
     },
     {
       id: 3,
-      imagePath: '/images/todolist_reactjs.jpg',
+      imagePath: todolistReact,
       name: 'ToDo List',
       skills: 'React.js | CSS',
       description:
