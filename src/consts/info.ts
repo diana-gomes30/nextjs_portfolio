@@ -21,8 +21,7 @@ const data = {
       description:
         'This app is similar to CryptoApp in react.js. However, it has pagination feature, a cryptocurrency details page and watchlist cryptocurrencies are stored in an external database. In this app, some unit tests and some end-to-end tests were also done.',
       gitHubLink: 'https://github.com/diana-gomes30/nextjs_crypto_app',
-      liveLink:
-        'https://64635cbb1a3b9f7960021b28--golden-strudel-2cf393.netlify.app/',
+      liveLink: 'https://nextjs-crypto-app-gamma.vercel.app/',
     },
     {
       id: 2,
@@ -32,7 +31,7 @@ const data = {
       description:
         'This app uses the CoinGecko API to show cryptocurrency data including rank, name, price, 24h volume, market cap and price change percentage in 1h, 24h, 7d. The app also has some features, one for searching and another for adding coins to the watchlist by saving them in local storage.',
       gitHubLink: 'https://github.com/diana-gomes30/react_crypto_app',
-      liveLink: 'https://master--bucolic-semolina-5af1b8.netlify.app/',
+      liveLink: 'https://react-crypto-app-psi-lemon.vercel.app/',
     },
     {
       id: 3,
