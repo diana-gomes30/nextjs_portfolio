@@ -14,7 +14,7 @@ const data = {
   projects: [
     {
       id: 1,
-      imagePath: '/cryptoapp_nextjs.jpg',
+      imagePath: '/images/cryptoapp_nextjs.jpg',
       name: 'CryptoApp',
       skills: 'Next.js | TypeScript | Tailwind CSS | Storybook',
       tests: 'Cypress | Jest | Testing Library',
@@ -25,7 +25,7 @@ const data = {
     },
     {
       id: 2,
-      imagePath: '/cryptoapp_reactjs.jpg',
+      imagePath: '/images/cryptoapp_reactjs.jpg',
       name: 'CryptoApp',
       skills: 'React.js | TypeScript | CSS',
       description:
@@ -35,7 +35,7 @@ const data = {
     },
     {
       id: 3,
-      imagePath: '/todolist_reactjs.jpg',
+      imagePath: '/images/todolist_reactjs.jpg',
       name: 'ToDo List',
       skills: 'React.js | CSS',
       description:
