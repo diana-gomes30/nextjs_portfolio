@@ -15,8 +15,7 @@ export default function CardProject({ project }: CardProjectProps) {
           alt={project.name}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 200vw, 99vw"
-          style={{ objectFit: 'contain' }}
-          className="rounded-lg"
+          className="rounded-lg object-contain"
         />
       </div>
       <div className="h-auto">
@@ -47,41 +46,3 @@ export default function CardProject({ project }: CardProjectProps) {
     </div>
   );
 }
-
-/*
-<div className="m-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <Image
-        className="rounded-t-lg"
-        src={project.imagePath}
-        alt={project.name}
-        width={200}
-        height={200}
-      />
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        {project.name}
-      </h5>
-      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {project.description}
-      </p>
-      <div className="flex content-between justify-between">
-        <Link
-          href={project.gitHubLink}
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-fuchsia-700 rounded-lg hover:bg-fuchsia-800 focus:ring-4 focus:outline-none focus:ring-fuchsia-300 dark:bg-blue-600 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-800"
-        >
-          GitHub Repo
-          <div className="pl-2">
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
-        </Link>
-        <Link
-          href={project.liveLink}
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-fuchsia-700 rounded-lg hover:bg-fuchsia-800 focus:ring-4 focus:outline-none focus:ring-fuchsia-300 dark:bg-fuchsia-600 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-800"
-        >
-          Live Link
-          <div className="pl-2">
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
-        </Link>
-      </div>
-    </div>
-*/
