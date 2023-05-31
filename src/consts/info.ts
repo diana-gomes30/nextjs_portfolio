@@ -15,7 +15,7 @@ const data = {
   address: 'Leiria, Portugal',
   nationality: 'Portuguese',
   skills:
-    'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, HTML, CSS, SQL, C#, .Net Framework, Flutter',
+    'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, HTML, CSS, SQL, C#, .Net Framework, Dart, Flutter',
   projects: [
     {
       id: 1,
