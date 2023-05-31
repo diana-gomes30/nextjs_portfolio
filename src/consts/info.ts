@@ -1,6 +1,7 @@
-import crytoappNext from '../../public/images/cryptoapp_nextjs.jpg';
-import crytoappReact from '../../public/images/cryptoapp_reactjs.jpg';
 import todolistReact from '../../public/images/todolist_reactjs.jpg';
+import crytoappReact from '../../public/images/cryptoapp_reactjs.jpg';
+import crytoappNext from '../../public/images/cryptoapp_nextjs.jpg';
+import abcomeAppFlutter from '../../public/images/abcome_app_flutter.jpg';
 
 const data = {
   name: 'Diana Gomes',
@@ -46,6 +47,14 @@ const data = {
         'This app is similar to CryptoApp in react.js. However, it has pagination feature, a cryptocurrency details page and watchlist cryptocurrencies are stored in an external database. In this app, some unit tests and some end-to-end tests were also done.',
       gitHubLink: 'https://github.com/diana-gomes30/nextjs_crypto_app',
       liveLink: 'https://nextjs-crypto-app-gamma.vercel.app/',
+    },
+    {
+      id: 4,
+      imagePath: abcomeAppFlutter,
+      name: 'A.B.Come App',
+      skills: 'Dart | Flutter',
+      description: `This app was developed for a group of friends who get together for dinner every month and every year they vote to elect a president and a treasurer for the organization of next year's dinners. With this app, you can add group members and create a poll per year and see the results of that last poll.`,
+      gitHubLink: 'https://github.com/diana-gomes30/ABComeApp',
     },
   ],
 };

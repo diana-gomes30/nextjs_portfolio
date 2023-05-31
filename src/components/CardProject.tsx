@@ -37,11 +37,13 @@ export default function CardProject({ project }: CardProjectProps) {
               GitHub Repo
             </button>
           </Link>
-          <Link href={project.liveLink}>
-            <button className="bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-2 my-2 px-4 rounded">
-              Live Link
-            </button>
-          </Link>
+          {project.liveLink && (
+            <Link href={project.liveLink}>
+              <button className="bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-2 my-2 px-4 rounded">
+                Live Link
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>
