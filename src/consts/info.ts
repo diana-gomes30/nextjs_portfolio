@@ -18,14 +18,13 @@ const data = {
   projects: [
     {
       id: 1,
-      imagePath: crytoappNext,
-      name: 'CryptoApp',
-      skills: 'Next.js | TypeScript | Tailwind CSS | Storybook',
-      tests: 'Cypress | Jest | Testing Library',
+      imagePath: todolistReact,
+      name: 'ToDo List',
+      skills: 'React.js | CSS',
       description:
-        'This app is similar to CryptoApp in react.js. However, it has pagination feature, a cryptocurrency details page and watchlist cryptocurrencies are stored in an external database. In this app, some unit tests and some end-to-end tests were also done.',
-      gitHubLink: 'https://github.com/diana-gomes30/nextjs_crypto_app',
-      liveLink: 'https://nextjs-crypto-app-gamma.vercel.app/',
+        'This is a simple app that allows us to create, update, mark as done and delete tasks. Tasks are stored in local storage.',
+      gitHubLink: 'https://github.com/diana-gomes30/react_todolist',
+      liveLink: 'https://master--steady-bunny-76f340.netlify.app/',
     },
     {
       id: 2,
@@ -39,13 +38,14 @@ const data = {
     },
     {
       id: 3,
-      imagePath: todolistReact,
-      name: 'ToDo List',
-      skills: 'React.js | CSS',
+      imagePath: crytoappNext,
+      name: 'CryptoApp',
+      skills: 'Next.js | TypeScript | Tailwind CSS | Storybook',
+      tests: 'Cypress | Jest | Testing Library',
       description:
-        'This is a simple app that allows us to create, update, mark as done and delete tasks. Tasks are stored in local storage.',
-      gitHubLink: 'https://github.com/diana-gomes30/react_todolist',
-      liveLink: 'https://master--steady-bunny-76f340.netlify.app/',
+        'This app is similar to CryptoApp in react.js. However, it has pagination feature, a cryptocurrency details page and watchlist cryptocurrencies are stored in an external database. In this app, some unit tests and some end-to-end tests were also done.',
+      gitHubLink: 'https://github.com/diana-gomes30/nextjs_crypto_app',
+      liveLink: 'https://nextjs-crypto-app-gamma.vercel.app/',
     },
   ],
 };
