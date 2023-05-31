@@ -8,5 +8,5 @@ export interface Project {
   tests?: string;
   description: string;
   gitHubLink: string;
-  liveLink: string;
+  liveLink?: string;
 }
