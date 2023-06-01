@@ -53,7 +53,7 @@ const data = {
       imagePath: abcomeAppFlutter,
       name: 'A.B.Come App',
       skills: 'Dart | Flutter',
-      description: `This app was developed for a group of friends who get together for dinner every month and every year they vote to elect a president and a treasurer for the organization of next year's dinners. With this app, you can add group members and create a poll per year and see the results of that last poll.`,
+      description: `This app was developed for a group of friends who get together for dinner every month and every year they vote to elect a president and a treasurer for the organization of next year's dinners. With this app, from a single device, you can add group members, create a poll per year and see the results of that last poll.`,
       gitHubLink: 'https://github.com/diana-gomes30/ABComeApp',
     },
   ],
